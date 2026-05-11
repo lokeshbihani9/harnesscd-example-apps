@@ -1,0 +1,53 @@
+k8s/k8s.yml
+  human 20
+k8s/values.yaml
+  human 1
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "20",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "k8s/k8s.yml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "k8s/values.yaml"
+    }
+  ],
+  "base_commit_sha": "99a96d0a26f555e338b77fb38b691af7225c0df3",
+  "branch": "main",
+  "commit_sha": "28ccb23e3ae79abd1f622122853be18d0eee14c2",
+  "commit_time": "2026-05-11T15:59:35+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.3",
+  "prompts": {
+    "human": {
+      "accepted_lines": 2,
+      "agent_id": null,
+      "human_author": "lokeshbihani9 <lokesh.bihani@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 2,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/lokeshbihani9/harnesscd-example-apps.git",
+  "schema_version": "authorship/3.0.0"
+}
