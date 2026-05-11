@@ -5,7 +5,7 @@ metadata:
   namespace: lbihani9
   labels:
     app: rest-api
-    team: lbihani9
+    team: cd
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         app: rest-api
-        team: lbihani9
+        team: cd
     spec:
       containers:
       - name: rest-api
