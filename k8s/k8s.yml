@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: rest-api
-        image: <YOUR_IMAGE> # e.g. gcr.io/<your-gcp-project>/rest-api:latest
+        image: <+values.image> # e.g. gcr.io/<your-gcp-project>/rest-api:latest
         ports:
         - containerPort: 3000
         resources:
