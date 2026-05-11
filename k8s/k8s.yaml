@@ -5,6 +5,7 @@ metadata:
   namespace: lbihani9
   labels:
     app: rest-api
+    team: lbihani9
 spec:
   replicas: 1
   selector:
@@ -14,10 +15,11 @@ spec:
     metadata:
       labels:
         app: rest-api
+        team: lbihani9
     spec:
       containers:
       - name: rest-api
-        image: {{ .Values.image }} # e.g. gcr.io/<your-gcp-project>/rest-api:latest
+        image: {{ .Values.image }}
         ports:
         - containerPort: 3000
         resources:

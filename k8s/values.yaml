@@ -1,1 +1,1 @@
-imageName: <+artifact.image>  # pkg.qa.harness.io/OgiB4-xETamKNVAz-wQRjw/lbihani9/harnesscd-example-apps:0.0.1
+image: <+artifact.image>  # pkg.qa.harness.io/OgiB4-xETamKNVAz-wQRjw/lbihani9/harnesscd-example-apps:0.0.1
