@@ -1,0 +1,12 @@
+---
+{
+  "attestations": [],
+  "base_commit_sha": "initial",
+  "branch": "main",
+  "commit_sha": "99a96d0a26f555e338b77fb38b691af7225c0df3",
+  "commit_time": "2026-05-11T15:04:04+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.3",
+  "prompts": {},
+  "schema_version": "authorship/3.0.0"
+}
