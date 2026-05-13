@@ -1,3 +1,2 @@
 # namespace: <+stage.variables.namespace>
-dockerconfigjson: <+artifact.imagePullSecret>
 image: <+artifact.image>  # pkg.qa.harness.io/OgiB4-xETamKNVAz-wQRjw/lbihani9/harnesscd-example-apps:0.0.1
