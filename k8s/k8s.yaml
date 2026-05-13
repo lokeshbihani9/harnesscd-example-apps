@@ -18,7 +18,7 @@ spec:
         team: cds
     spec:
       imagePullSecrets:
-      - name: harness-registry-secret
+      - name: {{ .Values.dockerconfigjson }}
       containers:
       - name: rest-api
         image: {{ .Values.image }}
