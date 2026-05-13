@@ -1,0 +1,2 @@
+namespace: <+stage.variables.namespace>
+replicas: 2

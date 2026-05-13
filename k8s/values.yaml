@@ -1,2 +1,2 @@
-namespace: <+stage.variables.namespace>
+# namespace: <+stage.variables.namespace>
 image: <+artifact.image>  # pkg.qa.harness.io/OgiB4-xETamKNVAz-wQRjw/lbihani9/harnesscd-example-apps:0.0.1
