@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: k8s-remote-infra
+  identifier: k8sremoteinfra
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
+  environmentRef: testenv
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: lokeshGKEConnector
+    namespace: lbihani9
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false

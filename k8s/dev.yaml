@@ -1,2 +1,2 @@
 namespace: <+stage.variables.namespace>
-replicas: 1
+replicas: 2
