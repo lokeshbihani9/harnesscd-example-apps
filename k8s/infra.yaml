@@ -11,3 +11,5 @@ infrastructureDefinition:
     namespace: lbihani9
     releaseName: release-<+INFRA_KEY_SHORT_ID>-test
   allowSimultaneousDeployments: false
+  scopedServices:
+    - nodesvc
