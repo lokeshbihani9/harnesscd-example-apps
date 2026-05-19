@@ -9,5 +9,7 @@ infrastructureDefinition:
   spec:
     connectorRef: lokeshGKEConnector
     namespace: lbihani9
-    releaseName: release-<+INFRA_KEY_SHORT_ID>
+    releaseName: release-<+INFRA_KEY_SHORT_ID>-test
   allowSimultaneousDeployments: false
+  scopedServices:
+    - nodesvc
