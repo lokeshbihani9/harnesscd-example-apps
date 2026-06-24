@@ -1,3 +1,4 @@
+# Do not change. Only relevant for Gitops flow. This is a Harness managed file.
 infrastructureDefinition:
   name: k8s-remote-infra
   identifier: k8sremoteinfra
